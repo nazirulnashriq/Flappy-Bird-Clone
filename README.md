@@ -90,7 +90,6 @@ Developed as a personal portfolio project demonstrating core game development ar
 ## 📈 Planned Enhancements
 - [ ] Persistent high-score saving with `PlayerPrefs` or JSON serialization
 - [ ] WebGL build deployed to itch.io for instant browser play
-- [x] Sound effects & background audio management
 - [ ] Mobile touch support via the new Input System
 
 ---
