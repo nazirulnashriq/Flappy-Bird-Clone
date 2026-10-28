@@ -8,15 +8,11 @@ Developed as a personal portfolio project demonstrating core game development ar
 
 ## 🎮 Gameplay Preview
 
-> *Tip: Add a gameplay GIF or screenshot here by placing an image in the repository (e.g. `docs/gameplay.gif`) and linking it.*
 
-```
-+-------------------------------------------------------------+
-|                                                             |
-|                    [ Insert Gameplay GIF ]                  |
-|                                                             |
-+-------------------------------------------------------------+
-```
+
+https://github.com/user-attachments/assets/02c853d9-3651-4723-aa6d-c09d7be621ba
+
+
 
 ---
 
