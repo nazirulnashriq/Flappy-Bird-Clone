@@ -7,6 +7,10 @@ public class birdscript : MonoBehaviour
     public int jump_strength = 6;
     public LogicScript logic;
 
+    public AudioSource jumpSound;
+
+    public AudioSource squawkSound;
+
     public bool isDead = false;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -27,11 +31,18 @@ public class birdscript : MonoBehaviour
     {
         BirdRigidBody.linearVelocity = Vector2.up * jump_strength;
         GetComponent<Animator>().SetTrigger("Flap");
+        jumpSound.Play();
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        if (isDead)
+        {
+            return;
+        }
+
         logic.gameOver();
         isDead = true;
+        squawkSound.Play();
     }
 }
